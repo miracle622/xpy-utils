@@ -43,6 +43,9 @@ export const addColonIfMissing = (text) => {
     }
     return text
 }
+export const test=()=>{
+    
+}
 export const removeColonIfMissing = (text) => {
     if (!text) return text || ''
     return text.replace(/[:：]+$/, '')
